@@ -22,6 +22,7 @@ html, body {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
+    font-size: 100%;
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -116,13 +117,13 @@ h2 {
 .body-copy {
   order: 3;
   color: #ffffff;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   z-index: 10;
 }
 
 .cta {
     order: 5;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     padding-right: 15vw;
     z-index: 10;
 }
