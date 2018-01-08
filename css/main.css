@@ -126,12 +126,18 @@ h2 {
     margin-top: 1.5rem;
     padding-right: 15vw;
     z-index: 10;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
 }
 
 .btn {
     box-sizing: border-box;
     width: 100%;
-    display: inline-block;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 5%;
     margin-bottom: 1rem;
     background: rgba(255, 255, 255, 0.65);
