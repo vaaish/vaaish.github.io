@@ -131,6 +131,17 @@ h2 {
     flex-flow: row wrap;
 }
 
+input {
+    -webkit-appearance: none;
+    cursor: pointer;
+    font-weight: 600;
+    border: 0;
+    background: none;
+    font-family: "Raleway",sans-serif;
+    padding: .75rem;
+}
+
+
 .btn {
     box-sizing: border-box;
     width: 100%;
@@ -146,6 +157,7 @@ h2 {
     padding: .75rem;
     text-align: center;
     font-weight: 600;
+    cursor: pointer;
     transition: background .25s ease-in-out;
     -webkit-transition: background .25s ease-in-out;
 }
@@ -156,6 +168,10 @@ h2 {
 
 .btn:hover {
     background: rgba(255, 255, 255, 1);
+}
+
+#mc_embed_signup {
+  padding:0;
 }
 
 footer {
